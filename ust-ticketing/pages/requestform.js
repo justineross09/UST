@@ -151,7 +151,7 @@ export default function Login() {
             <TextField
               label='Name'
               placeholder=''
-              helpertext= 'Required'
+              helperText= 'Required'
               onChange={(e) => {
                 setName(e.target.value);
               }}
