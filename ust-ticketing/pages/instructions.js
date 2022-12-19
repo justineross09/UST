@@ -14,7 +14,7 @@ export default function Login() {
       show={1}
     >
       <Box
-        className='w-[38rem]'
+        className='w-[38rem] rounded-md'
         bordered
       >
         <div className='flex flex-col gap-6 items-center justify-center text-center font-medium'>
@@ -30,16 +30,16 @@ export default function Login() {
             form before proceeding to the request form.
           </p>
           <p>
-            Click the &apos;CLEARANCE FORM&apos; button to file for the
-            clearance. Once you have your clearance APPROVED, you may click
-            &apos;SEE PAYMENT DETAILS&apos; button to proceed with payment.
+            Click the &apos;CLEARANCE FORM&apos; button to see the instructions
+            on getting an approved clearance. You may click the
+            &apos;DOCUMENT PRICES&apos; button to view the document prices.
           </p>
           <div className='flex gap-4'>
             <Link href='https://drive.google.com/uc?export=download&id=15roljwFQoWk61ZNeI0g75cj2UjO_EkIb'>
             <Button size='sm'>CLEARANCE FORM</Button>
             </Link>
             <Link href='https://drive.google.com/file/d/1X3DxMHKsVR4BZuOqsI28K0W1wBx0-9Mi/view?usp=sharing'>
-            <Button size='sm'>SEE PAYMENT DETAILS</Button>
+            <Button size='sm'>DOCUMENT PRICES</Button>
             </Link>
           </div>
           <p>Already have an approved clearance slip and payment receipt?</p>

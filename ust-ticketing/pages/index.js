@@ -16,7 +16,7 @@ export default function Home() {
       <div className='flex items-center justify-center'>
         
         <Box
-          className='w-[26rem]'
+          className='w-[26rem] rounded-md'
           bordered
         >
           <div className='flex flex-col items-center'>
@@ -27,14 +27,14 @@ export default function Home() {
                 fill="true"
               />
             </div>
-            <h2 className='text-2xl font-bold my-6'>JHS: StuD ReqTics</h2>
+            <h2 className='text-2xl font-bold my-6'>Document Requisition System </h2>
             <div className='flex flex-col gap-3 w-full'>
               <Link href='/instructions'>
                 <Button>Request Ticket</Button>
               </Link>
               
               <Link href='/tracking'>
-                <Button>View Ticket</Button>
+                <Button>View Ticket Status</Button>
               </Link>
             </div>
           </div>

@@ -25,7 +25,7 @@ export default function Login() {
             alert('Found existing reference id');
             window.location.replace(`/ticketstatus?id=${referenceId}`);
           } else {
-            alert('No existing reference id');
+            alert('No existing Tracking ID');
           }
         },
         (error) => {

@@ -116,7 +116,7 @@ export default function Login() {
               Your password must have the following:
             </p>
             <ul className='list-disc font-semibold mb-4'>
-              <li>atleast 6 characters long</li>
+              <li>atleast 8 characters long</li>
               <li>atleast one numerical character</li>
               <li>atleast one special character</li>
               <li>one uppercase character</li>

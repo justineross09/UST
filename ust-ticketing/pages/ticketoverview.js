@@ -112,7 +112,7 @@ export default function Login() {
                   Student Number
                 </th>
                 <th className='whitespace-nowrap px-4 py-2.5 text-left font-semibold text-neutral-900'>
-                  Email
+                  Contact Number
                 </th>
                 <th className='whitespace-nowrap px-4 py-2.5 text-left font-semibold text-neutral-900'>
                   Date Created

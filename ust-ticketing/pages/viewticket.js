@@ -23,7 +23,7 @@ export default function Login() {
             className='textgeneral'
             style={{ fontWeight: 10 }}
           >
-            Enter Tracking Number:
+            Enter Tracking ID:
           </p>
         </center>
         <forms>
