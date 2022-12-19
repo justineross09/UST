@@ -149,16 +149,15 @@ export default function Login() {
           </h2>
           <div className='grid grid-cols-2 justify-center items-center gap-4'>
             <TextField
-              label='Name'
+              label='Name *'
               placeholder=''
-              helperText= 'Required'
               onChange={(e) => {
                 setName(e.target.value);
               }}
               value={name}
             />
             <TextField
-              label='Student Number'
+              label='Student Number *'
               placeholder=''
               onChange={(e) => {
                 const re = /^[0-9\b]+$/;
@@ -169,7 +168,7 @@ export default function Login() {
               value={studentNumber}
             />
             <TextField
-              label='Email'
+              label='Email *'
               placeholder=''
               onChange={(e) => {
                 setEmail(e.target.value);
@@ -177,7 +176,7 @@ export default function Login() {
               value={email}
             />
             <TextField
-              label='Contact Number'
+              label='Contact Number *'
               placeholder=''
               onChange={(e) => {
                 const re = /^[0-9\b]+$/;
@@ -188,7 +187,7 @@ export default function Login() {
               value={contact}
             />
             <TextField
-              label='Approved Clearance Slip'
+              label='Approved Clearance Slip *'
               placeholder=''
               type='file'
               onChange={(e) => {
@@ -197,7 +196,7 @@ export default function Login() {
               }}
             />
             <TextField
-              label='Proof of Payment'
+              label='Proof of Payment *'
               placeholder=''
               type='file'
               onChange={(e) => {
@@ -206,7 +205,7 @@ export default function Login() {
               }}
             />
             <SelectField
-              label='Document to be requested'
+              label='Document to be requested *'
               data={['Good Moral', 'Diploma', 'Certificate of Enrollment', 'Transcript of Records',
             'Certified True Copy of Grades', 'Certificate of Subject Description', 
             'Certificate of Medium of Instruction', 'Scholastic Records Requirement']}
@@ -214,13 +213,13 @@ export default function Login() {
               selected={documentToBeRequested}
             />
             <SelectField
-              label='Delivery Option'
+              label='Delivery Option *'
               data={['Pickup', 'Lalamove', 'Grab', 'Angkas']}
               setSelected={setDeliveryOptions}
               selected={deliveryOptions}
             />
             <TextArea
-              label='Special Request'
+              label='Special Request *'
               className='col-span-2'
               onChange={(e) => {
                 setSpecialRequest(e.target.value);

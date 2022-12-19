@@ -28,7 +28,7 @@ export default function Home() {
                 fill="true"
               />
             </div>
-            <h2 className='text-2xl font-bold my-6 align-center'>Document Requisition System </h2>
+            <h2 className='text-2xl font-bold my-6 justify-center text-center items-center'>Document Requisition System </h2>
             <div className='flex flex-col gap-3 w-full'>
               <Link href='/instructions'>
                 <Button>Request Ticket</Button>
