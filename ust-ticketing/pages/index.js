@@ -9,7 +9,7 @@ import Link from 'next/link';
 import Logo from 'public/jhslogo.png';
 import Sublayout from '../components/Layout/Sublayout';
 import UnstyledButton from 'components/UI/Buttons/UnstyledButton';
-document.title = "Index";
+
 
 export default function Home() {
   return (
