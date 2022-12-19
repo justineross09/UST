@@ -8,7 +8,8 @@ import Button from 'components/UI/Buttons/Button';
 import Link from 'next/link';
 import Logo from 'public/jhslogo.png';
 import Sublayout from '../components/Layout/Sublayout';
-import UnstyledButton from 'components/UI/Buttons/UnstyledButton'
+import UnstyledButton from 'components/UI/Buttons/UnstyledButton';
+document.title = "Index";
 
 export default function Home() {
   return (
@@ -27,7 +28,7 @@ export default function Home() {
                 fill="true"
               />
             </div>
-            <h2 className='text-2xl font-bold my-6'>Document Requisition System </h2>
+            <h2 className='text-2xl font-bold my-6 align-center'>Document Requisition System </h2>
             <div className='flex flex-col gap-3 w-full'>
               <Link href='/instructions'>
                 <Button>Request Ticket</Button>
