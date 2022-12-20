@@ -35,7 +35,7 @@ export default function Login() {
             &apos;DOCUMENT PRICES&apos; button to view the document prices.
           </p>
           <div className='flex gap-4'>
-            <Link href='https://drive.google.com/uc?export=download&id=15roljwFQoWk61ZNeI0g75cj2UjO_EkIb'>
+            <Link href='https://drive.google.com/uc?export=download&id=1NcIok5te30aUwpjZeYrw8QNJ8VYCh73C'>
             <Button size='sm'>CLEARANCE FORM</Button>
             </Link>
             <Link href='https://drive.google.com/file/d/1X3DxMHKsVR4BZuOqsI28K0W1wBx0-9Mi/view?usp=sharing'>
