@@ -242,9 +242,9 @@ export default function Login() {
         </div>
       </div>
       <div className='flex mt-10 justify-end gap-6'>
-      <Button className='bg-red-600 hover:bg-red-700'>
+      {/*<Button className='bg-red-600 hover:bg-red-700'>
           Archive 
-        </Button> 
+                </Button>*/}
         <Button onClick={() => {
             window.location.replace('genoverview');
           }}>BACK TO OVERVIEW</Button>
