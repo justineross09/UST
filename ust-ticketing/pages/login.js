@@ -63,7 +63,7 @@ export default function Login() {
                 fill="true"
               />
             </div>
-            <h2 className='text-2xl font-bold my-6'>JHS: StuD ReqTics</h2>
+            <h2 className='text-2xl font-bold my-6'>Document Requisition System</h2>
             <div className='flex flex-col gap-3 w-full'>
               <TextField
                 label='Username'
